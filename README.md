@@ -172,6 +172,7 @@ Current List of Available Coins for Address Generation
 |FAIR | Faircoin2 | f  |
 |FLOZ | FLOZ | F  |
 |FTC | Feathercoin | 6 or 7  |
+|FxTC | FixedTradeCoin | f  |
 |GAME | GameCredits | G  |
 |GAP | Gapcoin | G  |
 |GCR | Global Currency Reserve | G  |

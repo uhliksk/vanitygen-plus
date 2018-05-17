@@ -126,6 +126,7 @@ main(int argc, char **argv)
 					"FAIR : Faircoin2 : f\n"
 					"FLOZ : FLOZ : F\n"
 					"FTC : Feathercoin : 6 or 7\n"
+					"FxTC : FixedTradeCoin : f\n"
 					"GAME : GameCredits : G\n"
 					"GAP : Gapcoin : G\n"
 					"GCR : Global Currency Reserve : G\n"
@@ -881,6 +882,14 @@ main(int argc, char **argv)
 					"Decrypting FTC Address\n");
 					addrtype_opt = 14;
 					privtype_opt = 142;
+					break;
+			}
+			else
+			if (strcmp(optarg, "FxTC")== 0) {
+				fprintf(stderr,
+					"Decrypting FxTC Address\n");
+					addrtype_opt = 95;
+					privtype_opt = 207;
 					break;
 			}
 			else
